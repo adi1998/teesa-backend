@@ -1,0 +1,56 @@
+INFO [02-07|01:49:19] Starting peer-to-peer node               instance=Geth/v1.7.3-stable-4bb3c89d/linux-amd64/go1.9
+INFO [02-07|01:49:19] Allocated cache and file handles         database=/root/mychain/chaindata/geth/chaindata cache=128 handles=1024
+INFO [02-07|01:49:19] Initialised chain configuration          config="{ChainID: 1994 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: 0 EIP158: 0 Byzantium: 0 Engine: unknown}"
+INFO [02-07|01:49:19] Disk storage enabled for ethash caches   dir=/root/mychain/chaindata/geth/ethash count=3
+INFO [02-07|01:49:19] Disk storage enabled for ethash DAGs     dir=/root/.ethash                       count=2
+INFO [02-07|01:49:19] Initialising Ethereum protocol           versions="[63 62]" network=5217
+INFO [02-07|01:49:19] Loaded most recent local header          number=5362 hash=b4227d…0ac8f8 td=1235077365
+INFO [02-07|01:49:19] Loaded most recent local full block      number=5362 hash=b4227d…0ac8f8 td=1235077365
+INFO [02-07|01:49:19] Loaded most recent local fast block      number=5362 hash=b4227d…0ac8f8 td=1235077365
+INFO [02-07|01:49:19] Loaded local transaction journal         transactions=2 dropped=0
+INFO [02-07|01:49:19] Regenerated local transaction journal    transactions=2 accounts=1
+WARN [02-07|01:49:19] Blockchain not empty, fast sync disabled 
+INFO [02-07|01:49:19] Starting P2P networking 
+INFO [02-07|01:49:21] UDP listener up                          self=enode://b480d1da352c55c245a47cdfdd01f0c46e4c1d87c3f17a24e45e575507be4613662044ee9bcb391b369090168af8c8433156c628d5dab492375470873ddbcf57@[::]:30303
+INFO [02-07|01:49:21] HTTP endpoint opened: http://0.0.0.0:8545 
+INFO [02-07|01:49:21] RLPx listener up                         self=enode://b480d1da352c55c245a47cdfdd01f0c46e4c1d87c3f17a24e45e575507be4613662044ee9bcb391b369090168af8c8433156c628d5dab492375470873ddbcf57@[::]:30303
+INFO [02-07|01:49:21] IPC endpoint opened: /root/mychain/chaindata/geth.ipc 
+INFO [02-07|02:49:19] Regenerated local transaction journal    transactions=2 accounts=1
+INFO [02-07|03:42:36] Submitted transaction                    fullhash=0x6ffd71e79646c61ba7746e2ca84490caed2ebc9500faf50ab495ea1e56a84972 recipient=0x8229369cA66438d225A32e6cE855C8EA575ca2E3
+INFO [02-07|03:46:28] Submitted transaction                    fullhash=0x0d92a8806305607f58bf4f45c9781184eb2ee438b6983800f583057c2d2ba838 recipient=0x8229369cA66438d225A32e6cE855C8EA575ca2E3
+INFO [02-07|03:48:35] Submitted transaction                    fullhash=0xc18a82a685eb77a897637436c8a2ef2a283f8e8fa44bed7aff2865bc6ff6dfb9 recipient=0x8229369cA66438d225A32e6cE855C8EA575ca2E3
+INFO [02-07|03:49:19] Regenerated local transaction journal    transactions=5 accounts=1
+INFO [02-07|03:52:35] Submitted transaction                    fullhash=0xd75b58784bd2f024a8b53356d2b409475568fd445e86aba2b914753bb17731ce recipient=0x8229369cA66438d225A32e6cE855C8EA575ca2E3
+INFO [02-07|03:54:16] Submitted transaction                    fullhash=0x4edf2c64b223f1d602ff1037aa4fb14048b34e0930b461cfff3797e67f29642a recipient=0x8229369cA66438d225A32e6cE855C8EA575ca2E3
+INFO [02-07|03:58:54] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=5.686ms mgasps=0.000 number=5363 hash=2c61f4…ffaf2c
+INFO [02-07|03:58:58] Imported new chain segment               blocks=1 txs=7 mgas=0.712 elapsed=9.594ms mgasps=74.234 number=5364 hash=da4714…a16bb4
+INFO [02-07|03:58:58] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=19.495ms mgasps=0.000  number=5365 hash=114f4d…1df7d9
+INFO [02-07|03:58:58] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=20.533ms mgasps=0.000  number=5366 hash=b42d9f…df8e8d
+INFO [02-07|03:59:03] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=6.208ms  mgasps=0.000  number=5367 hash=3139f6…0cce76
+INFO [02-07|03:59:04] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=6.959ms  mgasps=0.000  number=5368 hash=24f081…0626bc
+INFO [02-07|03:59:05] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=6.471ms  mgasps=0.000  number=5369 hash=d3788b…f939e3
+INFO [02-07|03:59:06] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=5.173ms  mgasps=0.000  number=5370 hash=79df79…8d8817
+INFO [02-07|03:59:08] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=4.751ms  mgasps=0.000  number=5371 hash=d4aeac…c96b74
+INFO [02-07|03:59:09] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=5.401ms  mgasps=0.000  number=5372 hash=c92d5c…b0b641
+INFO [02-07|03:59:11] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=5.542ms  mgasps=0.000  number=5373 hash=5a019a…808d2b
+INFO [02-07|03:59:15] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=5.481ms  mgasps=0.000  number=5374 hash=8adc1d…ea5dcd
+INFO [02-07|04:12:02] Submitted transaction                    fullhash=0x9c861191379b49b110ff06cfd93a3a7a9c8b7d84c29206fc5fd2597dffa762d1 recipient=0x8229369cA66438d225A32e6cE855C8EA575ca2E3
+INFO [02-07|04:12:48] Imported new chain segment               blocks=1 txs=1 mgas=0.127 elapsed=7.502ms  mgasps=16.957 number=5375 hash=3ae304…14582f
+INFO [02-07|04:12:53] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=8.099ms  mgasps=0.000  number=5376 hash=57415d…e61c3e
+INFO [02-07|04:12:53] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=5.572ms  mgasps=0.000  number=5377 hash=bdc0ad…1bd2d7
+INFO [02-07|04:12:55] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=5.733ms  mgasps=0.000  number=5378 hash=209b70…a2c017
+INFO [02-07|04:12:57] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=6.718ms  mgasps=0.000  number=5379 hash=6ee72e…bbd66a
+INFO [02-07|04:12:58] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=5.787ms  mgasps=0.000  number=5380 hash=b26a8c…535d37
+INFO [02-07|04:13:04] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=8.462ms  mgasps=0.000  number=5381 hash=fbe366…bf95c5
+INFO [02-07|04:17:59] Submitted transaction                    fullhash=0xf60f83254a64e76d04af0cc98ce7f5e0f1520d84a3d0ef34e512cf063008b9cc recipient=0x8229369cA66438d225A32e6cE855C8EA575ca2E3
+INFO [02-07|04:27:22] Submitted transaction                    fullhash=0x1602fffdd8f51d325d4ba93ea9f10c02f4f15849554437721610479db9e31215 recipient=0x8229369cA66438d225A32e6cE855C8EA575ca2E3
+INFO [02-07|04:49:19] Regenerated local transaction journal    transactions=2 accounts=1
+INFO [02-07|05:49:19] Regenerated local transaction journal    transactions=2 accounts=1
+INFO [02-07|06:47:46] Submitted transaction                    fullhash=0xb415d5620f1097aa4b5baa067071a86792852781d504de5a36c26cc1c9ec024d recipient=0x8229369cA66438d225A32e6cE855C8EA575ca2E3
+INFO [02-07|06:49:19] Regenerated local transaction journal    transactions=3 accounts=1
+INFO [02-07|06:49:46] Submitted transaction                    fullhash=0x11a9c9750e013887a09e3e336b0d10135770950f2947258b4200f173aee851d7 recipient=0x8229369cA66438d225A32e6cE855C8EA575ca2E3
+INFO [02-07|07:49:19] Regenerated local transaction journal    transactions=4 accounts=1
+INFO [02-07|08:49:19] Regenerated local transaction journal    transactions=4 accounts=1
+INFO [02-07|09:49:19] Regenerated local transaction journal    transactions=4 accounts=1
+INFO [02-07|10:49:19] Regenerated local transaction journal    transactions=4 accounts=1
+INFO [02-07|11:49:19] Regenerated local transaction journal    transactions=4 accounts=1
