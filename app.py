@@ -1,6 +1,7 @@
 from flask import *
 from web3.contract import ConciseContract
 from flask_cors import CORS
+from time import sleep
 from flask_sockets import Sockets
 
 import json
@@ -9,6 +10,7 @@ import os
 import hmac
 import pickle
 import datetime
+
 
 app = Flask(__name__)
 
@@ -21,10 +23,16 @@ sockets =  Sockets(app)
 @sockets.route("/live_txn")
 def live_txn(ws):
 	while not ws.closed:
-		message = ws.receive()
+		#message = ws.receive()
 		# TODO : process and send transactions
+		ws.send("hello from the other side")
+		sleep(2)
+		#print (message)
+		
 
-		print (message)
+@app.route("/chat")
+def chat():
+	pass
 
 @app.after_request
 def after_request(response):
